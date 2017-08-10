@@ -1,0 +1,1 @@
+/usr/local/bin/g++-7   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/tcc2.dir/main.cpp.o CMakeFiles/tcc2.dir/Graph.cpp.o CMakeFiles/tcc2.dir/Utils.cpp.o CMakeFiles/tcc2.dir/LORA.cpp.o  -o tcc2 

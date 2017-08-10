@@ -1,0 +1,4 @@
+"/Applications/Adobe Photoshop CS6/CLion.app/Contents/bin/cmake/bin/cmake" -DCMAKE_BUILD_TYPE= -G "CodeBlocks - Unix Makefiles" /Users/gabrieloliveiramendanha/ClionProjects/tcc2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/gabrieloliveiramendanha/ClionProjects/tcc2/cmake-build-default
