@@ -10,7 +10,11 @@ int main() {
 
     int n, m; // quantidade de vértices e arestas, respectivamente.
 
+    printf("teste");
+
     cin >> n >> m;
+
+    printf("teste2");
 
     Graph G(n);
 

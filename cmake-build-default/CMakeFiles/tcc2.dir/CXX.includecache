@@ -25,11 +25,13 @@ LORA.h
 /Users/gabrieloliveiramendanha/ClionProjects/tcc2/LORA.h
 Utils.h
 /Users/gabrieloliveiramendanha/ClionProjects/tcc2/Utils.h
-cstdlib
+vector
 -
 iostream
 -
 algorithm
+-
+random
 -
 
 /Users/gabrieloliveiramendanha/ClionProjects/tcc2/LORA.h
@@ -53,21 +55,13 @@ Graph.h
 /Users/gabrieloliveiramendanha/ClionProjects/tcc2/Graph.h
 
 /Users/gabrieloliveiramendanha/ClionProjects/tcc2/main.cpp
-stdio.h
--
 vector
 -
 iostream
 -
-stdlib.h
--
 algorithm
 -
-set
--
 bits/stdc++.h
--
-cstdlib
 -
 Graph.h
 /Users/gabrieloliveiramendanha/ClionProjects/tcc2/Graph.h

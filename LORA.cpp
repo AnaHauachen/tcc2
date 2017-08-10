@@ -4,7 +4,7 @@
 
 #include "LORA.h"
 #include "Utils.h"
-#include <cstdlib>
+#include <vector>
 #include <iostream>
 #include <algorithm>
 #include <random>
@@ -19,16 +19,20 @@ void LORA(Graph G, vector < pair<int,int> > demandas, double beta){
     vector <int> order;
 
 
-    srand( time(NULL) );
+    for(int i = 0; i < G.n-1; i++) {
+        for(int j = 0; j < G.n-1; j++) {
+            if(demandas.at(j).first > demandas.at(j+1).first){
+                swap(demandas.at(j), demandas.at(j+1));
+            }
+        }
+    }
 
-    shuffle( demandas.begin(), demandas.end(), std::mt19937(std::random_device()()));
 
-
-    for (int i = 0; i < demandas.size(); i++) {
+    for(auto &demanda : demandas) {
         cout << "demanda : " ;
-        cout <<  demandas[i].first <<" " << demandas[i].second << endl; // Imprimindo as demandas
+        cout << demanda.first <<" " << demanda.second << endl; // Imprimindo as demandas
 
-        caminho = caminho_minimo(G, demandas[i].first, demandas[i].second);
+        caminho = caminho_minimo(G, demanda.first, demanda.second);
 
         //print(caminho);
 
